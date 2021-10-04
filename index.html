@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Platypus Brainstorming Session Number 1</title>
+    <meta name="Perry" content="Meeting Notes">
+    <meta name="Mock up Meeting Notes" content="Lab 2 Meeting Notes HTML">
+    <link rel="icon" type="image/x-icon" href="Perry_the_Platypus.ico">
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>
+                Platypus Brainstorming Session Number 1
+            </h1>
+            <p> Created by Perry Wang</p>
+        </header>
+        <nav class="Menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="#">Attendance</a></li>
+                <li><a href="#">Brainstorming</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Date of meeting</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h2>Attendance</h2>
+            <ol>
+                <li> Platypus</li>
+                <li> Alex</li>
+                <li> Jennifer</li>
+            </ol>
+            <br>
+            <h3> Absences</h3>
+            <ol>
+                <li> <i> Jake</i></li>
+                <li> <i> Anderson</i></li>
+            </ol>
+        </section>
+        <section>
+            <h2> Agenda</h2>
+            <p> <strong> The agenda for today's meeting will go as follows: </strong></p>
+            <br>
+            <ul>
+                <li> Brainstorming</li>
+                <li> Implementation</li>
+                <li> User sided focus</li>
+                <li> <a href="#">Unfinished items from last time</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3> Unfinished Items</h3>
+            <p> Unfinished items from last time including dividing up into groups, going over more documentation, etc.</p>
+        </section>
+        <section>
+            <h2> Brainstorming</h2>
+            <p><span style="background-color:rgb(150, 144, 238)"> <b>Any strong ideas should be listed below.</b></p>
+        </section>
+        <hr>
+        <section>
+            <h2> Documentation</h2>
+            <p><span style="background-color:lightskyblue"><strong> Any documentation needed for the upcoming portion of the product?</strong></p>
+        </section>
+        <br>
+        <section>
+            <h3> New Photos of this project</h3>
+            <img src="Perry_the_Platypus.png" alt="Perry the Platypus">
+        </section>
+        <section>
+            <h3>Date of meeting</h3>
+            <p> The date of the meeting is <em>October 2nd, 2021</em></p>
+        </section>
+        <section>
+            <h3> Audio of Meeting</h3>
+            <audio controls> <source src = "Lab 2 Audio.mp3" type = "audio/mpeg"> Your browser does not support audio element</audio>
+        </section>
+        <section>
+            <h3> Video from Meeting</h3>
+            <video width="400" height="400" controls>
+                <source src = "Lab 2 Vid.mp4" type = "video/mp4">
+            </video>
+        </section>
+        <details>
+            <summary>Get to know your partner better form!</summary>
+            <b>Below there exists a form and don't forget to fill it out!</b>
+        </details>
+        <br> <br> <br>
+        <form>
+            <fieldset>
+                <legend>
+                    Choose your favorite NL West baseball team
+                </legend>
+                <input type="radio" id="Rockies" name="NLW">
+                <label for="Rockies">Rockies</label><br/>
+                <input type="radio" id="DBacks" name="NLW">
+                <label for="DBacks">DiamondBacks</label><br/>
+                <input type="radio" id="Dodgers" name="NLW">
+                <label for="Dodgers">Dodgers</label><br/>
+                <input type="radio" id="Padres" name="NLW">
+                <label for="Padres">Padres</label><br/>
+                <input type="radio" id="Giants" name="NLW">
+                <label for="Giants">Giants</label><br/>
+
+                <button type="button" onclick="alert('Response submitted')">Submit</button>
+
+            </fieldset>
+            <br>
+            <label for="boba-choice">Choose a boba flavor:</label>
+            <input list="boba-choices" id="boba-choice" name="boba-choice" />
+
+            <datalist id="boba-choices">
+                <option value="Jasmine">
+                <option value="Rose Milk">
+                <option value="Strawberry Puree">
+                <option value="Oreo Matcha">
+            </datalist>
+            <br>
+            <input type="submit" value="Submit">
+
+            <br> <br>
+            <p><span style= "background-color: lightsteelblue"><p>Choose your boba toppings:</p>
+
+            <div>
+                <input type="checkbox" id="boba" name="boba"
+                checked>
+                <label for="boba">Boba</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="golden boba" name="golden boba">
+                <label for="golden boba">Golden boba</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Aloe Vera" name="Aloe Vera">
+                <label for="Aloe Vera"> Aloe Vera</label>
+            </div>
+            <br>
+            <input type="submit">
+            <br>
+            <br>
+            <label for="cars">Choose your favorite car:</label>
+
+            <select name="cars" id="cars">
+                <option value="Volvo">Volvo</option>
+                <option value="Honda">Honda</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="Audi">Audi</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Tesla">Tesla</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+            <br> <br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <input type="submit">
+            <br>
+
+            <p> <strong>Submit your name below:</strong></p>
+                <label for="firname">First name: </label>
+                <input type="text" id="firname" name="firname"><br><br>
+                <label for="lasname">Last name: </label>
+                <input type="text" id="lasname" name="lasname"><br><br>
+                <input type="submit" value="Submit">
+            <br>
+            <label for="Additional interests"><b>Additional personal interests for us to know: </b></label>
+            <textarea id="Additional interests" name="Additional interests" rows="4" cols="50"></textarea>
+            <br><br>
+            <input type="submit">
+        </form>
+        <h2>Footnote</h2>
+        <footer>
+            <p> Author: Perry Wang <br> Email it to: <a href="mailto:pqwang@ucsd.edu">pqwang@ucsd.edu</a></p>
+        </footer>
+    </main>
+</body>
+
+</html>
