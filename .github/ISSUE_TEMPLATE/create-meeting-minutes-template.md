@@ -1,9 +1,9 @@
 ---
 name: Create Meeting Minutes Template
 about: Listing Meeting Minutes content here
-title: ''
+title: 'Meeting Minutes'
 labels: enhancement, question
-assignees: ''
+assignees: 'Team 26'
 
 ---
 
