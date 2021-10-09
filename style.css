@@ -20,7 +20,7 @@
     border-radius: 0em;
     border-width: .5em;
     border-color: rgb(46, 167, 167);
-    margin: <10> <10> <10> <10>;
+    margin: (10, 10, 10, 10);
     text-align: center;
 }
 
